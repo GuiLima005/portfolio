@@ -1,0 +1,19 @@
+/*TABLET */
+@media (max-width: 960px) {
+
+.profile{
+    flex-direction: column;
+    text-align: center;
+}
+.section-title{
+    font-size: 140px;    
+}
+.contato{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.contato-container{
+    align-items: center;
+}
+}
