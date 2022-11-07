@@ -24,6 +24,9 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.bars{
+    display: none;
+}
 main{
     grid-area: content;
     display: flex;

@@ -1,19 +1,58 @@
 /*TABLET */
 @media (max-width: 960px) {
 
+header{
+    justify-content: space-around;
+}
+.menu{
+    max-width: 500px;
+    display: none;
+}
+.bars{
+    display: block;
+}
 .profile{
     flex-direction: column;
     text-align: center;
 }
 .section-title{
-    font-size: 140px;    
+    font-size: 100px;    
 }
-.contato{
+.sobre-mim{ 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    text-align: center;
+}
+.description__text{
+    width: 100%;
+}
+.skills__icons{
+    place-content: center;
+}
+.card-container{
+    max-width: 600px;
+    justify-content: center;
+    gap: 48px;
+}
+.projetos{
+    height: auto;
+}
+.contato{ 
+    padding-bottom: 50px;
+    height: auto;
     justify-content: space-around;
     display: flex;
     flex-direction: column;
 }
 .contato-container{
     align-items: center;
+}
+footer{
+    height: auto;
+}
+.voltar{
+    display: none;
 }
 }
