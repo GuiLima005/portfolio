@@ -45,6 +45,7 @@ header{
     justify-content: space-around;
     display: flex;
     flex-direction: column;
+    gap: 55px;
 }
 .contato-container{
     align-items: center;
