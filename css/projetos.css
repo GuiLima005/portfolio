@@ -17,6 +17,10 @@
     position: relative;
     overflow: hidden;
 }
+.card-projetos{
+    height: 200px;
+    width: 320px;
+}
 .card::before{
    content: "Click aqui para ver o projeto";
    background-color: #0009;
